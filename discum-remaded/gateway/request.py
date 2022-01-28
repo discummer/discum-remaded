@@ -1,10 +1,10 @@
 from ..importmanager import Imports
 imports = Imports(
 	{
-		"GuildRequest": "discum.gateway.guild.request",
-		"DmRequest": "discum.gateway.dms.request",
-		"UserRequest": "discum.gateway.user.request",
-		"MediaRequest": "discum.gateway.media.request",
+		"GuildRequest": "discumremaded.gateway.guild.request",
+		"DmRequest": "discumremaded.gateway.dms.request",
+		"UserRequest": "discumremaded.gateway.user.request",
+		"MediaRequest": "discumremaded.gateway.media.request",
 	}
 )
 

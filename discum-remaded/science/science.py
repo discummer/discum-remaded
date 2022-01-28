@@ -40,7 +40,7 @@ class Science(object):
 			else:
 				self.UUIDobj.eventNum += 1
 		body = {'token': self.analytics_token, 'events':events}
-		if self.analytics_token == None: #if not logged in. ex: bot=discum.Client(token='poop')
+		if self.analytics_token == None: #if not logged in. ex: bot=discumremaded.Client(token='poop')
 			headerModifications = {"remove": ["Authorization"]}
 			return Wrapper.sendRequest(self.s, 'post', url, body, headerModifications=headerModifications, log=self.log)
 		else:

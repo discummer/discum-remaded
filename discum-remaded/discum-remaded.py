@@ -1,20 +1,20 @@
-#to speed up importing discum-remaded & only import modules when they are needed
+#to speed up importing discumremaded & only import modules when they are needed
 from .importmanager import Imports
 imports = Imports(
 	{
-		"Wrapper": "discum-remaded.RESTapiwrap",
-		"Login": "discum-remaded.start.login",
-		"SuperProperties": "discum-remaded.start.superproperties",
-		"Other": "discum-remaded.start.other",
-		"Guild": "discum-remaded.guild.guild",
-		"Messages": "discum-remaded.messages.messages",
-		"User": "discum-remaded.user.user",
-		"Stickers": "discum-remaded.stickers.stickers",
-		"Science": "discum-remaded.science.science",
-		"TOTP": "discum-remaded.utils.totp",
-		"RemoteAuth": "discum-remaded.gateway.remoteauth",
-		"SlashCommands": "discum-remaded.interactions.slashcommands",
-		"Buttons": "discum-remaded.interactions.buttons"
+		"Wrapper": "discumremaded.RESTapiwrap",
+		"Login": "discumremaded.start.login",
+		"SuperProperties": "discumremaded.start.superproperties",
+		"Other": "discumremaded.start.other",
+		"Guild": "discumremaded.guild.guild",
+		"Messages": "discumremaded.messages.messages",
+		"User": "discumremaded.user.user",
+		"Stickers": "discumremaded.stickers.stickers",
+		"Science": "discumremaded.science.science",
+		"TOTP": "discumremaded.utils.totp",
+		"RemoteAuth": "discumremaded.gateway.remoteauth",
+		"SlashCommands": "discumremaded.interactions.slashcommands",
+		"Buttons": "discumremaded.interactions.buttons"
 	}
 )
 

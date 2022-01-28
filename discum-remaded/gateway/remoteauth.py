@@ -15,7 +15,7 @@ try:
 	from Crypto.Hash import SHA256
 	import pyqrcode
 except ImportError:
-	raise ImportError("Install discum[ra] to use remote authentication.")
+	raise ImportError("Install discumremaded[ra] to use remote authentication.")
 
 try:
 	import thread

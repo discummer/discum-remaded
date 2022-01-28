@@ -1,4 +1,4 @@
-#to speed up importing discum
+#to speed up importing discumremaded
 class Imports: #method factory (https://stackoverflow.com/a/55618155)
 	__slots__ = ['imports']
 	def __init__(self, imports):

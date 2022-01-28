@@ -6,7 +6,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'discum-remaded'
+NAME = 'discumremaded'
 DESCRIPTION = 'A Remaded Discord API Wrapper for Userbots/Selfbots written in Python.'
 URL = 'https://github.com/Merubokkusu/Discord-S.C.U.M'
 EMAIL = 'bambikuuu@gmail.com'

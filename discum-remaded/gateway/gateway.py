@@ -23,9 +23,9 @@ from ..logger import LogLevel, Logger
 from ..importmanager import Imports
 imports = Imports(
 	{
-		"User": "discum.user.user",
-		"GuildCombo": "discum.gateway.guild.combo",
-		"UserCombo": "discum.gateway.user.combo",
+		"User": "discumremaded.user.user",
+		"GuildCombo": "discumremaded.gateway.guild.combo",
+		"UserCombo": "discumremaded.gateway.user.combo",
 	}
 )
 

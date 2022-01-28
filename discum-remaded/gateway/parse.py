@@ -3,11 +3,11 @@
 from ..importmanager import Imports
 imports = Imports(
 	{
-		"StartParse": "discum.gateway.start.parse",
-		"GuildParse": "discum.gateway.guild.parse",
-		"UserParse": "discum.gateway.user.parse",
-		"MessageParse": "discum.gateway.messages.parse",
-		"ChannelParse": "discum.gateway.channels.parse",
+		"StartParse": "discumremaded.gateway.start.parse",
+		"GuildParse": "discumremaded.gateway.guild.parse",
+		"UserParse": "discumremaded.gateway.user.parse",
+		"MessageParse": "discumremaded.gateway.messages.parse",
+		"ChannelParse": "discumremaded.gateway.channels.parse",
 	}
 )
 

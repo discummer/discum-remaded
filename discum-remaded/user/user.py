@@ -300,7 +300,7 @@ class User(object):
 		url = self.discord+"users/@me/billing/subscriptions"
 		return Wrapper.sendRequest(self.s, 'get', url, log=self.log)
 
-	def getStripeClientSecret(self): #for adding new payment methods. Stripe api wraps are not included because discum is just a discord api 
+	def getStripeClientSecret(self): #for adding new payment methods. Stripe api wraps are not included because discumremaded is just a discord api 
 		url = self.discord+"users/@me/billing/stripe/setup-intents"
 		return Wrapper.sendRequest(self.s, 'post', url, log=self.log)
 
