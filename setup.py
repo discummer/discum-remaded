@@ -8,11 +8,11 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'discumremaded'
 DESCRIPTION = 'A Remaded Discord API Wrapper for Userbots/Selfbots written in Python.'
-URL = 'https://github.com/Merubokkusu/Discord-S.C.U.M'
+URL = 'https://github.com/discummer/discum-remaded'
 EMAIL = 'bambikuuu@gmail.com'
 AUTHOR = 'BambiKu'
 REQUIRES_PYTHON = '>=2.7.0'
-VERSION = '0.21'
+VERSION = '0.25'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

@@ -50,8 +50,8 @@ Please adhere to this project's `code of conduct`.
 ## Examples
 
 ```python
-import discum-remaded   
-bot = discum-remaded.Client(token='bottoken', log=False)
+import discumremaded   
+bot = discumremaded.Client(token='bottoken', log=False)
 
 bot.sendMessage("channelid", "Hello :)")
 
