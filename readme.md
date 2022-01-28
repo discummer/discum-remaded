@@ -1,61 +1,27 @@
-# discumremaded
-![version](https://img.shields.io/badge/github%20version-1.4.0-blue) [![python versions](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue)](https://github.com/Merubokkusu/Discord-S.C.U.M)       
-[![PyPI version](https://badge.fury.io/py/discumremaded.svg)](https://badge.fury.io/py/discumremaded) [![python versions](https://img.shields.io/badge/python-2.7%20%7C%203.5%20%7C%203.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-green)](https://pypi.org/project/discumremaded)      
-A simple, easy to use, non-restrictive, synchronous Discord API Wrapper for Selfbots/Userbots written in Python.       
--using requests and websockets :)
 
-![https://files.catbox.moe/3ns003.png](https://files.catbox.moe/3ns003.png)
-        
-Will have less and less time to work on this project.          
-If you have issues, you can either make an issue, email discordtehe@gmail.com, or ask on https://reddit.com/r/Discord_selfbots.       
-For another python library that's currently better maintained, I'd recommend the following (asynchronous) lib: https://github.com/dolfies/discord.py-self           
-Happy new year & happy coding,         
-\- arandomnewaccount                  
-##### *** risky actions: [issue #66](https://github.com/Merubokkusu/Discord-S.C.U.M/issues/66#issue-876713938)
+# Remaded Discum
 
-## Table of Contents
-- [Key Features](#Key-features)
-- [About](#About)
-- [Installation](#Installation)
-  - [Prerequisites](#prerequisites-installed-automatically-using-above-methods)
-- [Documentation](#Documentation)
-- [Contributing](#Contributing)
-- [Example Usage](#Example-usage)
-- [Links](#Links)
-- [Checklist](#Checklist)
-- [Contributing](#Contributing)
-- [FAQ](#FAQ)
-- [Notes](#Notes)
+### Its not Official Discum Wrapper !
+This Wrapper is a Discum Copy With Addons, original one is made by **Merubokkusu**
 
-## Key features
-- easy-to-use (make selfbots/userbots)
-- easy-to-extend/edit (add api wrappers)
-- readable (organized 😃 )
-- mimics the client while giving you control
-- all api wraps point to user/"private" apis
-- on-event (gateway) capabilities
-- [extremely customizable fetchMembers function](docs/using/fetchingGuildMembers.md)
-- remote authentication functions
-- support for python 2.7
+## Authors
 
-## About
-  discumremaded is a Discord self/userbot api wrapper (in case you didn't know, self/userbotting = automating a user account). Whenever you login to discord, your client communicates with Discord's servers using Discord's http api (http(s) requests) and gateway server (websockets). discumremaded allows you have this communication with Discord using python. 
-  
-  The main difference between discumremaded and other Discord api wrapper libraries (like discord.py) is that discumremaded is written and maintained to work on user accounts (so, perfect for selfbots/userbots). We test code on here and develop discumremaded to be readable, expandable, and useable. Functions that are risky to use are clearly stated as such in the docs.    
-  
-  Note, using a selfbot is against Discord's Terms of Service and you could get banned for using one if you're not careful. Also, this needs to be said: discumremaded does not have rate limit handling. The main reasons for this are that discumremaded is made to (1) be (relatively) simple and (2) give the developer/user freedom with how to handle the rate limits. We (Merubokkusu and anewrandomaccount) do not take any responsibility for any consequences you might face while using discumremaded. We also do not take any responsibility for any damage caused (to servers/channels) through the use of discumremaded. discumremaded is a tool; how you use this tool is on you.
+- [@merubokkusu](https://www.github.com/merubokkusu) (Official Author)
+- [@bambikuu](https://www.github.com/bambikuu) (Me)
 
-## Installation  
-To install the library normally, run:
+
+
+
+## Installation
+
+How to install Discum-Remaded
+
+```python
+  python -m pip install --user --upgrade git+https://github.com/discummer/discum-remaded.git#egg=discum-remaded
+  cd my-project
 ```
-python -m pip install --user --upgrade git+https://github.com/Merubokkusu/Discord-S.C.U.M.git#egg=discumremaded
-```
-Otherwise, to also use remote authentication functions (login using a phone & qr code), run:
-```
-python -m pip install --user --upgrade -e git+https://github.com/Merubokkusu/Discord-S.C.U.M.git#egg=discumremaded[ra]
-```
-
-#### Prerequisites (installed automatically using above methods)
+    
+# Prerequisites
 - requests
 - requests_toolbelt
 - brotli
@@ -64,22 +30,28 @@ python -m pip install --user --upgrade -e git+https://github.com/Merubokkusu/Dis
 - ua-parser
 - colorama
 
-remote auth prerequisites (if you install discumremaded[ra]):       
-- pyqrcode
-- pycryptodome
-- pypng
-
-## Documentation
-[https://github.com/Merubokkusu/Discord-S.C.U.M/tree/master/docs](docs)
-
 ## Contributing
-Contributions are welcome. You can submit issues, make pull requests, or suggest features. Ofc not all suggestions will be implemented (because discumremaded is intended to be a transparent, relatively-raw discord user api wrapper), but all suggestions will be looked into.        
-Please see the [contribution guidelines](https://github.com/Merubokkusu/Discord-S.C.U.M/blob/master/contributing.md)
 
-# Example usage
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+# Table of Contents + Links
+- [Authors](#Authors)
+- [Installation](#Installation)
+- [Prerequisites](#Prerequisites)
+- [Contributing](#Contributing)
+- [Examples](#Examples)
+- [Checklist](#Checklist)
+- [Support](#Support)
+- [PyPi](https://pypi.org/project/discum-remaded/)
+## Examples
+
 ```python
-import discumremaded-remaded   
-bot = discumremaded-remaded.Client(token='bottoken', log=False)
+import discum-remaded   
+bot = discum-remaded.Client(token='bottoken', log=False)
 
 bot.sendMessage("channelid", "Hello :)")
 
@@ -100,48 +72,14 @@ def helloworld(resp):
 bot.gateway.run(auto_reconnect=True)
 ```
 
-# Links
-[Documentation](docs)      
-[More examples](examples)      
-[Changelog](changelog.md)      
-[GitHub](https://github.com/Merubokkusu/Discord-S.C.U.M)      
-[PyPi](https://pypi.org/project/discumremaded/)      
 
 # Checklist
-- [x] Sending basic text messages
-- [X] Sending Images
-- [x] Sending Embeds
-- [X] Sending Requests (Friends etc)
-- [X] Profile Editing (Name,Status,Avatar)
-- [X] On-Message (and other on-anything gateway) capabilities
-- [X] Getting guild members
-- [X] improve documentation
-- [X] add interactions (slash command triggering, buttons, and dropdowns/menus)
-- [ ] add more guild http api wraps
-- [ ] media (voice & video calls, along with the various discord games/activites)
+- [x] Make Github Repo
+- [x] Make More Functions
+- [x] Publish Github Repo
+- [ ] Upload To PyPi
 - [ ] Everything
+## Support
 
-## FAQ
-Q: Why am I getting Attribute Errors?          
-A: Most likely you've installed discumremaded through pip, which is not always updated. To get the most recent version, install through github. For gateway.session related errors, you need to connect to the gateway at least once to receive session data.    
+For support, email bambikuuu@gmail.com or join our Discord Server.
 
-Q: Does discumremaded support BOT accounts?         
-A: No. discumremaded only supports user accounts.      
-
-Q: What's the difference between user/private API and BOT API?      
-A: User APIs are run by the official client. Many of these are not documented by discord. On the other hand, BOT APIs are run by BOT accounts and are documented by discord. discumremaded only consists of user APIs.    
-
-Q: How to fix "\[SSL: CERTIFICATE_VERIFY_FAILED]" errors?      
-A: https://stackoverflow.com/a/53310545/14776493       
-
-Q: I'm getting ```KeyError: 'members'``` when running ```bot.gateway.session.guild(guild_ID).members```. Why?      
-A: KeyErrors happened on previous versions where the "members" key was not set until you ran ```bot.gateway.fetchMembers(...); bot.gateway.run()```. Due to this causing some confusion, the latest versions do not display this KeyError (instead, the value of "members" is an empty dictionary to start with). Of course, you still have to fetch the members (a gateway operation) in order to get the members.
-
-Q: ```import _brotli ImportError: DLL load failed: The specified module could not be found.``` How to fix?       
-A: https://github.com/google/brotli/issues/782        
-     
-Q: ```The owner of this website (discord.com) has banned your access based on your browser's signature...```. How to fix?        
-A: This is because of your user agent (https://stackoverflow.com/a/24914742/14776493). Either try again or reinitialize your client with a new user agent.       
-    
-## Notes
-In recent years, token logging has become more common (as many people don't check code before they run it). I've seen many closed-source selfbots, and while surely some are well intentioned, others not so much. discumremaded (discord api wrapper) is open-sourced and organized to provide transparency, but even so, we encourage you to look at the code. Not only will looking at the code help you to better understand how discord's api is structured, but it'll also let you know exactly what you're running. If you have questions about discumremaded (after looking at the docs & previous issues), free to ask us.
