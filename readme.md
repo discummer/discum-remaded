@@ -18,7 +18,10 @@ How to install Discum-Remaded
 
 ```python
   python -m pip install --user --upgrade git+https://github.com/discummer/discum-remaded.git#egg=discum-remaded
-  cd my-project
+```
+or
+```
+  pip install discumremaded
 ```
     
 # Prerequisites
